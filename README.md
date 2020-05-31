@@ -5,8 +5,14 @@ talk-go读书汇笔记汇总
 
 ### 平均负载案例分析
 安装iostat mpstat pidstat 命令
+
 `$ apt install sysstat`
+
 `$ `apt install stress`  stress  linux系统压力测试工具
+
+`$ `apt install stress-ng`  stress  linux系统压力测试工具升级版
+
+
 
 
 
