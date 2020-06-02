@@ -54,11 +54,17 @@ linux上进程有5种状态:
 5. 停止(进程收到SIGSTOP, SIGSTP, SIGTIN, SIGTOU信号后停止运行运行) 
 
 ps工具标识进程的5种状态码: 
+
 D 不可中断 uninterruptible sleep (usually IO) 
+
 R 运行 runnable (on run queue) 
+
 S 中断 sleeping 
+
 T 停止 traced or stopped 
+
 Z 僵死 a defunct (”zombie”) process 
+
 
 # 第一阶段总结  第一周（5.25~5.31）
 遇到的问题: 
