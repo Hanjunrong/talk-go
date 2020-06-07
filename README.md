@@ -100,23 +100,8 @@ top 和 ps 是最常用的查看进程状态的工具，输出中 S 列（也就
 
 $ top
 
-PID   USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+![top](https://github.com/Hanjunrong/talk-go/blob/master/images/%E6%89%B9%E6%B3%A8%202020-06-07%20221029.png)
 
-28961 root      20   0   43816   3148   4040 R   3.2  0.0   0:00.01 top
-
-620   root      20   0   37280  33676    908 D   0.3  0.4   0:00.01 app
-
-1     root      20   0  160072   9416   6752 S   0.0  0.1   0:37.64 systemd
-
-1896  root      20   0       0      0      0 Z   0.0  0.0   0:00.00 devapp
-
-2     root      20   0       0      0      0 S   0.0  0.0   0:00.10 kthreadd
-
-4     root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:0H
-
-6     root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_wq
-
-7     root      20   0       0      0      0 S   0.0  0.0   0:06.37 ksoftirqd/0
 
 R 是 Running 或 Runnable 的缩写，表示进程在 CPU 的就绪队列中，正在运行或者正在等待运行。
 
